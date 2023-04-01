@@ -1,0 +1,319 @@
+* {
+    padding:0;
+    margin :0;
+    box-sizing:border-box;
+}
+h4{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color:#f5f7fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Montserrat ;
+}
+.wrapper {
+    background: #fff;
+    display: flex;
+   max-width: 1080px;
+   margin:0 auto;
+   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+} 
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding-bottom: 40px;
+    box-shadow: 5px 9px 5px rgba(0, 0, 0, 0.15);
+}
+.photo {
+    width: 370px;
+}
+.about-me-conteiner {
+    /* padding-top: 110px; 
+    padding-bottom: 110px;
+    padding-left: 90px;
+    padding-right: 90px;*/
+    padding: 80px 60px;
+}
+.contacts {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:60px;
+}
+.contacts-tittle {
+    font-size:22px ;
+    font-weight:700 ;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.contacts-link-type {
+    font-size:14px ;
+    font-weight:700 ;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+    
+
+}
+.contacts-link{
+    font-size:14px ;
+    font-weight:400 ;
+    line-height: 24px;
+    color:#d8dadd;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.contacts-link-type :hover{
+    text-decoration: underline;
+}
+
+.Tech-Skills {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:55px;
+}
+.Tech-Skills-tittle {
+    font-size:22px ;
+    font-weight:700 ;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.Tech-Skills-item {
+    font-size:14px ;
+    font-weight:400 ;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
+}
+.Tech-Skills-text {
+    color: #fff;
+}
+.Soft-Skills {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:55px;
+}
+.Soft-Skills-tittle {
+    font-size:22px ;
+    font-weight:700 ;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.Soft-Skills-item {
+    font-size:14px ;
+    font-weight:400 ;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
+}
+.Soft-Skills-text {
+    color: #d8dadd;
+}
+
+/* about me conteiner */
+
+.Profession {
+    font-size:18px ;
+    font-weight:700 ;
+    line-height: 24px;
+    /* margin-bottom: 23px; */
+}
+.name {
+    font-size :36px ;
+    font-weight:700 ;
+    line-height:60px;
+    
+}
+.description {
+    font-size :16.5px ;
+    font-weight:400 ;
+    margin-top: 10px;
+    
+}
+.about-me {
+    margin-bottom: 30px;
+}
+.about-me-tittle {
+    font-size :20px ;
+    font-weight:700 ;
+    line-height:24px;
+    /* margin-bottom: 10px; */
+}
+
+
+/* ! animation */
+.name {
+	color: #000;
+	background: #fff;
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	position: relative;
+	animation: text 4s 1;
+
+}
+
+.about-me-tittle{
+	color: #000;
+	font-size: 30px;
+}
+
+@keyframes text {
+	0% {
+		color: #000;
+		margin-bottom: -40px;
+	}
+
+	30% {
+		letter-spacing: 18px;
+		margin-bottom: -40px;
+	}
+
+	85% {
+		letter-spacing: 5px;
+		margin-bottom: -40px;
+	}
+}
+
+/* ! animations the and */
+
+.projeckts-link {
+    font-size :14px ;
+    font-weight:400 ;
+    line-height:24px;
+    color:#000 ;
+}
+.tech-name {
+    font-size :14px ;
+    font-weight:400 ;
+    line-height:24px;
+    color:#000 ;
+}
+.dots {
+    color:#bebebe ; 
+    font-weight: 100;
+}
+.projeckts-item {
+    font-weight: 700;
+    margin-left: 17px;
+}
+.projeckts-conteiner {
+    margin-bottom: 55px;
+}
+.Proffesion-tittle {
+    font-size :18px ;
+    font-weight:700 ;
+	
+    
+}
+
+.Proffesion-company {
+	color:#ff7011 ;
+	/* font-size: 18px; */
+}
+.institute {
+    color:#ff7011 ;
+	 font-size: 18px;
+	 margin:20px 0;
+}
+.Proffesion-time {
+    font-size :12px ;
+    font-weight:700 ;
+    line-height:24px;
+    color:#000 ;
+    
+}
+.Proff {
+    color: black;
+}
+.Proffesion-duties {
+    margin-top: 14px;
+    margin-bottom:30px ;
+}
+.Proffesion-duties-item {
+    font-size :14px ;
+    font-weight:500 ;
+    line-height:24px;
+    color:#000 ;
+}
+.bold{
+	font-weight: 700;
+}
+
+
+
+
+
+
+.content {
+	margin-top: 20px;
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 1.5s ease-out;
+}
+.collapsible {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;;;
+	cursor: pointer;
+	border:#1e2939 solid 2px ;
+	border-radius: 5px;
+	width: 100%;
+	/* border: none; */
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	padding: 5px 10px;
+ }
+ 
+ /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+ .active, .collapsible:hover {
+	background-color: #1e2939;
+	color: #fff;
+ }
+ 
+ /* Style the collapsible content. Note: hidden by default */
+ /* .content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+ } */
+
+
+ 
+.collapsible:after {
+	 content: '\254B';  /*Unicode character for "plus" sign (+) */ 
+	font-size: 14px;
+	font-weight: 700;
+	 color:#000; 
+	/* float: right;  */
+	
+	
+	
+}
+
+.active:after {
+	content: "\2015"; /* Unicode character for "minus" sign (-)
+	 */
+	 color: #fff;
+	 font-size: 14px;
+}
+
+
+
+
+
+
