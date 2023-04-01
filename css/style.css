@@ -33,11 +33,12 @@ body {
     width: 370px;
 }
 .about-me-conteiner {
+	
     /* padding-top: 110px; 
     padding-bottom: 110px;
     padding-left: 90px;
     padding-right: 90px;*/
-    padding: 80px 60px;
+    padding:80px 60px 80px 60px;
 }
 .contacts {
     margin-left: 40px;
@@ -119,7 +120,36 @@ body {
     color: #d8dadd;
 }
 
-/* about me conteiner */
+.lang{
+	
+	display: flex;
+	
+	
+}
+.uk{
+	padding: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	margin-right: 5px;
+	color: #ff6b08;
+	border:#1e2939 solid 2px;
+	border-radius: 5px;
+}
+.ru{
+	padding: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff6b08;
+	border:#1e2939 solid 2px;
+	border-radius: 5px;
+}
+
+
+/*! about me conteiner */
+
+.near-ex{
+	margin-bottom: 100px;
+}
 
 .Profession {
     font-size:18px ;
@@ -149,6 +179,12 @@ body {
     /* margin-bottom: 10px; */
 }
 
+.ul-1 {
+	margin-left: 20px;
+}
+
+
+
 
 /* ! animation */
 .name {
@@ -166,6 +202,7 @@ body {
 .about-me-tittle{
 	color: #000;
 	font-size: 30px;
+	
 }
 
 @keyframes text {
@@ -216,9 +253,24 @@ body {
 	
     
 }
+.Proffesion-tittle-1 {
+    font-size :18px ;
+    font-weight:700 ;
+	 border:#1e2939 solid 2px ;
+	 border-radius: 5px;
+	 padding: 5px 10px;
+	 cursor: pointer;
+	
+    
+}
+.Proffesion-tittle-1:hover{
+background-color: #1e2939;
+	color: #fff;
+}
 
 .Proffesion-company {
 	color:#ff7011 ;
+	margin-left: 10px;
 	/* font-size: 18px; */
 }
 .institute {
@@ -250,7 +302,10 @@ body {
 	font-weight: 700;
 }
 
-
+.all-1{
+	margin:20px 0;
+	font-size: 20px;
+}
 
 
 
@@ -276,10 +331,14 @@ body {
 	outline: none;
 	font-size: 18px;
 	padding: 5px 10px;
+	margin: 22px 0;
  }
  
+ 
+
  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
- .active, .collapsible:hover {
+ .active, 
+ .collapsible:hover {
 	background-color: #1e2939;
 	color: #fff;
  }
@@ -295,8 +354,8 @@ body {
 
  
 .collapsible:after {
-	 content: '\254B';  /*Unicode character for "plus" sign (+) */ 
-	font-size: 14px;
+	 content: '\25BC';  /*Unicode character for "plus" sign (+) */ 
+	font-size: 16px;
 	font-weight: 700;
 	 color:#000; 
 	/* float: right;  */
@@ -305,13 +364,19 @@ body {
 	
 }
 
+.collapsible:hover:after{
+	color: #fff;
+}
 .active:after {
-	content: "\2015"; /* Unicode character for "minus" sign (-)
+	content: "\25b2"; /* Unicode character for "minus" sign (-)
 	 */
 	 color: #fff;
-	 font-size: 14px;
+	 font-size: 16px;
 }
 
+.un{
+	margin-top: 100px;
+}
 
 
 
