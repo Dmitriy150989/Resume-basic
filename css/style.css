@@ -17,9 +17,9 @@ body {
     font-family: Montserrat ;
 }
 .wrapper {
-    background: #fff;
-    display: flex;
-   max-width: 1080px;
+   background: #fff;
+   display: flex;
+   max-width: 1200px;
    margin:0 auto;
    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 } 
@@ -38,7 +38,7 @@ body {
     padding-bottom: 110px;
     padding-left: 90px;
     padding-right: 90px;*/
-    padding:80px 60px 80px 60px;
+    padding:80px 0px 80px 80px;
 }
 .contacts {
     margin-left: 40px;
@@ -117,16 +117,17 @@ body {
     margin-left: 15px;
 }
 .Soft-Skills-text {
-    color: #d8dadd;
+    color: #fff;
 }
 
-.lang{
-	
+.lang{	
 	display: flex;
-	
+	margin: 5px 5px 0 0;
 	
 }
 .uk{
+	
+	height: 26px;
 	padding: 2px;
 	font-size: 14px;
 	font-weight: 700;
@@ -135,7 +136,18 @@ body {
 	border:#1e2939 solid 2px;
 	border-radius: 5px;
 }
+
+.uk a {
+	text-align: center;
+	text-decoration: none;
+	color: #ff6b08;
+}
+.active,
+.uk:hover{
+	background-color: #1e2939;
+}
 .ru{
+	height: 26px;
 	padding: 2px;
 	font-size: 14px;
 	font-weight: 700;
@@ -144,6 +156,19 @@ body {
 	border-radius: 5px;
 }
 
+.ru a {
+	text-decoration: none;
+	color: #ff6b08;
+}
+
+.active,
+.ru:hover{
+	background-color: #1e2939;
+}
+.messenger{
+	margin:0 0 0 22px;
+	text-decoration: none;
+}
 
 /*! about me conteiner */
 
@@ -183,8 +208,9 @@ body {
 	margin-left: 20px;
 }
 
-
-
+.near-job{
+	padding-left: 20px;
+}
 
 /* ! animation */
 .name {
@@ -195,7 +221,7 @@ body {
 	letter-spacing: 2px;
 	margin-bottom: 20px;
 	position: relative;
-	animation: text 4s 1;
+	animation: text 3s 1;
 
 }
 
@@ -260,6 +286,7 @@ body {
 	 border-radius: 5px;
 	 padding: 5px 10px;
 	 cursor: pointer;
+	 margin-bottom: 22px;
 	
     
 }
