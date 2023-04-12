@@ -415,28 +415,32 @@ background-color: #1e2939;
 
 /* ! SmartPhone */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 416px) {
 
-	.body{
+	body{
 		padding: 0;
-		margin: 0;
+		
+		
 	}
-
+	.photo {
+		
+		width: 100%;
+  }
 
 	.sidebar {
-		/* position: relative; */
-	/* width: 400px; */
+	box-shadow: none;
+	width: 100%; 
 	font-size: 1.1rem;
 }
 .wrapper {
-	   margin: 0;
+	   margin: 0 auto;
 	   box-shadow:none;
 		display: block;
 	}
 	.about-me-conteiner{
 		
-		justify-content: center;
 		
+		margin: 0 auto;
 		font-size: 1.2rem;
 		width: 370px;
 		padding: 0;
@@ -462,8 +466,8 @@ background-color: #1e2939;
 }
 
 .lang{
-	bottom: 90%;
-	left: 83%;
+	bottom: 97%;
+	left: 84%;
 	position: absolute;
 	z-index: 99999;
 }
