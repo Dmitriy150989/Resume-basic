@@ -1,195 +1,188 @@
 * {
-    padding:0;
-    margin :0;
-    box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-h4{
-	margin: 0;
-	padding: 0;
+h4 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color:#fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: Montserrat ;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
 }
 .wrapper {
-   background: #fff;
-   display: flex;
-   max-width: 1200px;
-   margin:0 auto;
-   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-} 
+  background: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
 .sidebar {
-	 font-size:14px ;
-    font-weight:400 ;
-    line-height: 24px;
-    background-color: #1e2939;
-    width: 370px;
-    padding-bottom: 40px;
-    box-shadow: 5px 9px 5px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #1e2939;
+  width: 370px;
+  padding-bottom: 40px;
+  box-shadow: 5px 9px 5px rgba(0, 0, 0, 0.15);
 }
 .photo {
-    width: 370px;
+  width: 370px;
 }
 .about-me-conteiner {
-	
-    /* padding-top: 110px; 
+  /* padding-top: 110px; 
     padding-bottom: 110px;
     padding-left: 90px;
     padding-right: 90px;*/
-    padding:80px 0px 80px 80px;
+  padding: 80px 0px 80px 80px;
 }
 .contacts {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top:60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
 }
 .contacts-tittle {
-    font-size:22px ;
-    font-weight:700 ;
-    line-height: 24px;
-    color: #fff;
-    margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
 }
-
 
 .contacts-link-type {
-    /* font-size:14px ;
+  /* font-size:14px ;
     font-weight:700 ;
     line-height: 24px; */
-    color: #fff;
-    margin-right: 10px;
-    
-
+  color: #fff;
+  margin-right: 10px;
 }
-.contacts-link{
-    /* font-size:14px ;
+.contacts-link {
+  /* font-size:14px ;
     font-weight:400 ;
     line-height: 24px; */
-    color:#fff;
-    padding-left: 10px;
-    text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+  text-decoration: none;
 }
-.contacts-link-type :hover{
-    text-decoration: underline;
+.contacts-link-type :hover {
+  text-decoration: underline;
 }
 
 .Tech-Skills {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top:55px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
 }
 .Tech-Skills-tittle {
-    /* font-size:22px ;
+  /* font-size:22px ;
     font-weight:700 ;
     line-height: 24px; */
-    color: #fff;
-    margin-bottom: 20px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 .Tech-Skills-item {
-    /* font-size:14px ;
+  /* font-size:14px ;
     font-weight:400 ;
     line-height: 24px; */
-    color: #ff6b08;
-    margin-left: 15px;
+  color: #ff6b08;
+  margin-left: 15px;
 }
 .Tech-Skills-text {
-    color: #fff;
+  color: #fff;
 }
 .Soft-Skills {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top:55px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
 }
 .Soft-Skills-tittle {
-    font-size:22px ;
-    font-weight:700 ;
-    line-height: 24px;
-    color: #fff;
-    margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 .Soft-Skills-item {
-    /* font-size:14px ;
+  /* font-size:14px ;
     font-weight:400 ;
     line-height: 24px; */
-    color: #ff6b08;
-    margin-left: 15px;
+  color: #ff6b08;
+  margin-left: 15px;
 }
 .Soft-Skills-text {
-    color: #fff;
+  color: #fff;
 }
 
-.lang{	
-	display: flex;
-	margin: 5px 5px 0 0;
-	
+.lang {
+  display: flex;
+  margin: 5px 5px 0 0;
 }
-.uk{
-	
-	height: 26px;
-	padding: 2px;
-	font-size: 14px;
-	font-weight: 700;
-	margin-right: 5px;
-	color: #ff6b08;
-	border:#1e2939 solid 2px;
-	border-radius: 5px;
+.uk {
+  height: 26px;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px;
+  color: #ff6b08;
+  border: #1e2939 solid 2px;
+  border-radius: 5px;
 }
 
 .uk a {
-	text-align: center;
-	text-decoration: none;
-	color: #ff6b08;
+  text-align: center;
+  text-decoration: none;
+  color: #ff6b08;
 }
 .active,
-.uk:hover{
-	background-color: #1e2939;
+.uk:hover {
+  background-color: #1e2939;
 }
-.ru{
-	height: 26px;
-	padding: 2px;
-	font-size: 14px;
-	font-weight: 700;
-	color: #ff6b08;
-	border:#1e2939 solid 2px;
-	border-radius: 5px;
+.ru {
+  height: 26px;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff6b08;
+  border: #1e2939 solid 2px;
+  border-radius: 5px;
 }
 
 .ru a {
-	text-decoration: none;
-	color: #ff6b08;
+  text-decoration: none;
+  color: #ff6b08;
 }
 
 .active,
-.ru:hover{
-	background-color: #1e2939;
+.ru:hover {
+  background-color: #1e2939;
 }
-.messenger{
-	margin:0 0 0 22px;
-	text-decoration: none;
+.messenger {
+  margin: 0 0 0 22px;
+  text-decoration: none;
 }
 
 /*! about me conteiner */
 
-.near-ex{
-	margin-bottom: 100px;
+.near-ex {
+  margin-bottom: 100px;
 }
 
 .Profession {
-    font-size:18px ;
-    font-weight:700 ;
-    line-height: 24px;
-    /* margin-bottom: 23px; */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  /* margin-bottom: 23px; */
 }
 .name {
-    font-size :36px ;
-    font-weight:700 ;
-    line-height:60px;
-    
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
 }
 /* .description {
     font-size :16.5px ;
@@ -198,57 +191,55 @@ body {
     
 } */
 .about-me {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .about-me-tittle {
-    font-size :20px ;
-    font-weight:700 ;
-    line-height:24px;
-    /* margin-bottom: 10px; */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  /* margin-bottom: 10px; */
 }
 
 .ul-1 {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
-.near-job{
-	padding-left: 20px;
+.near-job {
+  padding-left: 20px;
 }
 
 /* ! animation name on*/
 .name {
-	color: #000;
-	background: #fff;
-	font-size: 42px;
-	font-weight: 700;
-	letter-spacing: 2px;
-	margin-bottom: 20px;
-	position: relative;
-	animation: text 3s 1;
-
+  color: #000;
+  background: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
 }
 
-.about-me-tittle{
-	color: #000;
-	font-size: 30px;
-	
+.about-me-tittle {
+  color: #000;
+  font-size: 30px;
 }
 
 @keyframes text {
-	0% {
-		color: #000;
-		margin-bottom: -40px;
-	}
+  0% {
+    color: #000;
+    margin-bottom: -40px;
+  }
 
-	30% {
-		letter-spacing: 18px;
-		margin-bottom: -40px;
-	}
+  30% {
+    letter-spacing: 18px;
+    margin-bottom: -40px;
+  }
 
-	85% {
-		letter-spacing: 5px;
-		margin-bottom: -40px;
-	}
+  85% {
+    letter-spacing: 5px;
+    margin-bottom: -40px;
+  }
 }
 
 /* ! animations name off*/
@@ -277,200 +268,190 @@ body {
     margin-bottom: 55px;
 } */
 .Proffesion-tittle {
-    font-size :18px ;
-    font-weight:700 ;
-	
-    
+  font-size: 18px;
+  font-weight: 700;
 }
 .Proffesion-tittle-1 {
-    font-size :18px ;
-    font-weight:700 ;
-	 border:#1e2939 solid 2px ;
-	 border-radius: 5px;
-	 padding: 5px 10px;
-	 cursor: pointer;
-	 margin-bottom: 22px;
-	
-    
+  font-size: 18px;
+  font-weight: 700;
+  border: #1e2939 solid 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 22px;
 }
-.Proffesion-tittle-1:hover{
-background-color: #1e2939;
-	color: #fff;
+.Proffesion-tittle-1:hover {
+  background-color: #1e2939;
+  color: #fff;
 }
 
 .Proffesion-company {
-	color:#ff7011 ;
-	margin-left: 10px;
-	/* font-size: 18px; */
+  color: #ff7011;
+  margin-left: 10px;
+  /* font-size: 18px; */
 }
 .institute {
-    color:#ff7011 ;
-	 font-size: 18px;
-	 margin:20px 0;
+  color: #ff7011;
+  font-size: 18px;
+  margin: 20px 0;
 }
 .Proffesion-time {
-    font-size :12px ;
-    font-weight:700 ;
-    line-height:24px;
-    color:#000 ;
-    
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
 }
 .Proff {
-    color: black;
+  color: black;
 }
 .Proffesion-duties {
-    margin-top: 16px;
-    margin-bottom:30px ;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 .Proffesion-duties-item {
-    /* font-size :14px ; */
-    font-weight:500 ;
-    line-height:24px;
-    color:#000 ;
+  /* font-size :14px ; */
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
 }
-.bold{
-	font-weight: 700;
-}
-
-.all-1{
-	margin:20px 0;
-	font-size: 20px;
+.bold {
+  font-weight: 700;
 }
 
-
-
+.all-1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
 
 .content {
-	
-	margin-top: 20px;
-	padding: 0 18px;
-	background-color: white;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 1.5s ease-out;
+  margin-top: 20px;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.5s ease-out;
 }
 .collapsible {
-	display: flex;
-	justify-content: space-between;
-	background-color: #fff;;;
-	cursor: pointer;
-	border:#1e2939 solid 2px ;
-	border-radius: 5px;
-	width: 100%;
-	/* border: none; */
-	text-align: left;
-	outline: none;
-	font-size: 18px;
-	padding: 5px 10px;
-	margin: 22px 0;
- }
- 
- 
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  cursor: pointer;
+  border: #1e2939 solid 2px;
+  border-radius: 5px;
+  width: 100%;
+  /* border: none; */
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 22px 0;
+}
 
- /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
- .active, 
- .collapsible:hover {
-	background-color: #1e2939;
-	color: #fff;
- }
- 
- /* Style the collapsible content. Note: hidden by default */
- /* .content {
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #1e2939;
+  color: #fff;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+/* .content {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
  } */
 
-
- 
 .collapsible:after {
-	 content: '\25BC';  /*Unicode character for "plus" sign (+) */ 
-	font-size: 16px;
-	font-weight: 700;
-	 color:#000; 
-	/* float: right;  */
-	
-	
-	
+  content: "\25BC"; /*Unicode character for "plus" sign (+) */
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  /* float: right;  */
 }
 
-.collapsible:hover:after{
-	color: #fff;
+.collapsible:hover:after {
+  color: #fff;
 }
 .active:after {
-	content: "\25b2"; /* Unicode character for "minus" sign (-)
+  content: "\25b2"; /* Unicode character for "minus" sign (-)
 	 */
-	 color: #fff;
-	 font-size: 16px;
+  color: #fff;
+  font-size: 16px;
 }
 
-.un{
-	margin-top: 100px;
+.un {
+  margin-top: 100px;
 }
 
-
-
-
+.name-mobail {
+  color: #1e2939;
+}
 
 /* ! SmartPhone */
 
 @media screen and (max-width: 416px) {
-
-	body{
-		padding: 0;
-		
-		
-	}
-	.photo {
-		
-		width: 100%;
+  body {
+    padding: 0;
+  }
+  .photo {
+    width: 100%;
   }
 
-	.sidebar {
-	box-shadow: none;
-	width: 100%; 
-	font-size: 1.1rem;
-}
-.wrapper {
-	   margin: 0 auto;
-	   box-shadow:none;
-		display: block;
-	}
-	.about-me-conteiner{
-		
-		
-		margin: 0 auto;
-		font-size: 1.2rem;
-		width: 370px;
-		padding: 0;
-		box-shadow:none;
+  .sidebar {
+    box-shadow: none;
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .wrapper {
+    margin: 0 auto;
+    box-shadow: none;
+    display: block;
+  }
+  .about-me-conteiner {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    width: 370px;
+    padding: 0;
+    box-shadow: none;
+  }
+  .Proffesion-time {
+    font-size: 1rem;
+  }
 
-	}
-	.Proffesion-time{
-		font-size: 1rem;
-	}
+  .Proffesion-duties {
+    font-size: 1.2rem;
+  }
 
-	.Proffesion-duties{
-		font-size: 1.2rem;
-	}
+  .name {
+    display: none;
+  }
+  .name-mobail {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+  }
 
-	
+  .exp {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .near-ex {
+    margin-bottom: 20px;
+  }
 
-	.near-ex{
-		margin-bottom: 20px;
-}
+  .un {
+    margin-top: 20px;
+  }
 
-.un{
-	margin-top: 20px;
-}
-
-.lang{
-	bottom: 97%;
-	left: 84%;
-	position: absolute;
-	z-index: 99999;
-}
-
-
+  .lang {
+    bottom: 90%;
+    left: 80%;
+    position: absolute;
+    z-index: 99999;
+  }
 }
