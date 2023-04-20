@@ -390,7 +390,7 @@ body {
 
 /* ! SmartPhone */
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 767px) {
   body {
     padding: 0;
   }
@@ -409,10 +409,10 @@ body {
     display: block;
   }
   .about-me-conteiner {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-size: 1.2rem;
-    width: 370px;
-    padding: 0;
+    /* width: 370px; */
+    padding: 0 20px;
     box-shadow: none;
   }
   .Proffesion-time {
@@ -453,9 +453,13 @@ body {
   }
 
   .lang {
-    bottom: 96%;
-    left: 82%;
+    top: 1%;
+    right: 2%;
     position: absolute;
     z-index: 99999;
   }
+}
+
+.messenger {
+  margin: 0;
 }
